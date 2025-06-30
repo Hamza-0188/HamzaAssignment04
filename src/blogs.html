@@ -3,12 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog - Blog Posts</title>
     <link rel="stylesheet" href="../styles/blogs.css">
-    <title>Blogs</title>
 </head>
 <body>
-    <h1>this is my blogs page
-    </h1>
-    
+    <header>
+        <div class="container">
+            <h1>My Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="blogs.html" class="active">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="blog-header">
+            <h2>Latest Blog Posts</h2>
+            <p>Explore our collection of articles on various topics.</p>
+        </section>
+
+        <section class="blog-posts">
+            <article class="blog-post">
+                <img src="https://images.unsplash.com/photo-1546074177-ffdda98d214f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Blog post image">
+                <div class="post-content">
+                    <h3>The Art of Storytelling</h3>
+                    <p class="post-meta">Posted on June 15, 2023 | 5 min read</p>
+                    <p>Learn how to craft compelling stories that captivate your audience and keep them engaged from start to finish.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-post">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Blog post image">
+                <div class="post-content">
+                    <h3>10 Tips for Productive Writing</h3>
+                    <p class="post-meta">Posted on June 10, 2023 | 7 min read</p>
+                    <p>Discover techniques to boost your writing productivity and overcome writer's block with these practical tips.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+            <article class="blog-post">
+                <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Blog post image">
+                <div class="post-content">
+                    <h3>Building an Online Audience</h3>
+                    <p class="post-meta">Posted on June 5, 2023 | 8 min read</p>
+                    <p>Strategies for growing your online presence and building a loyal audience for your content.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="categories">
+            <h2>Browse by Category</h2>
+            <div class="category-list">
+                <a href="#">Writing Tips</a>
+                <a href="#">Blogging</a>
+                <a href="#">SEO</a>
+                <a href="#">Content Marketing</a>
+                <a href="#">Social Media</a>
+                <a href="#">Freelancing</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Blog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
